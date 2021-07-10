@@ -1,16 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello Gama Academy
-        </p>
-      </header>
-    </div>
+    <>
+      <input name="usuario" id="usuario" className="inputUsuario" placeholder="Usuário"></input>
+      <button type="button">Pesquisar</button>
+    </>
   );
 }
 
