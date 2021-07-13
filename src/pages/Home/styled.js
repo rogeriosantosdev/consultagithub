@@ -1,8 +1,15 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-    width: 98vw;
-    height: 98vh;
+export const HomeContainer = styled.div `
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+`
+
+export const Content = styled.div`
+    width: 97vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,4 +38,12 @@ export const Button = styled.button `
         outline: none;
         box-shadow: none;
     }
+`
+
+export const ErrorMsg = styled.span `
+    display: flex;
+    font-size: 0.75rem;
+    color: red;
+    font-weight: 600;
+    padding: 10px;
 `
